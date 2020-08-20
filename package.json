@@ -14,7 +14,7 @@
 		"node": ">=6"
 	},
 	"main": "index.js",
-	"module": "lib/index.esm.js",
+	"module": "index.esm.js",
 	"scripts": {
 		"build": "rollup -c",
 		"benchmark": "node benchmark.js",
@@ -50,6 +50,7 @@
 		"@babel/preset-env": "^7.11.0",
 		"@rollup/plugin-babel": "^5.2.0",
 		"@rollup/plugin-commonjs": "^15.0.0",
+		"@rollup/plugin-node-resolve": "^9.0.0",
 		"ava": "^1.4.1",
 		"benchmark": "^2.1.4",
 		"deep-equal": "^1.0.1",
